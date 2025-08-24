@@ -12,7 +12,8 @@ for item, price in item_price.items():
 #then allow the user to update the price of an item.
 item_choice = input("Enter item you want to update price: ")
 if item_choice in item:
-    item_price[item_choice] = float(input(f"Enter new price of {item} in $: "))
-    print(f"Price updated to ${item_price}")
+     item_price[item_choice] = float(input(f"Enter new price of {item} in $: "))
+     print(f"Price updated to ${item_price}")
 else:
-    print("Item not found") 
+ print("Item not found") 
+

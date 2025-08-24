@@ -19,3 +19,4 @@ print(f"First person age = {age_1}, Second person age = {age_2}")
 print(f"Are they of the same age: {age_1 == age_2}")
 print(f"Is  the first person older than the second person: {age_1 > age_2}")
 print(f"Is the fisrt person younger than the second person: {age_1 < age_2}")
+
